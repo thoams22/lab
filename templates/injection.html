@@ -1,0 +1,30 @@
+<!-- create a page with a search bar -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../static/injection.css">
+        <script src="../static/injection.js"></script>
+        <title>Injection Test</title>
+    </head>
+    <body>
+
+        <div>
+            <h1>Fruit prices (€/kg)</h1>
+            <p>Get the price per kg of 5 fruits (Apple, Banana, Grape, Mango, Orange).</p>
+        </div>
+        <div classs="button">
+            <input type="checkbox" id="toggle-insecure"> Enable secure search
+        </div>
+
+        <div class="topnav">
+            <input type="text" id="search-input" placeholder="Search..">
+            <button onclick="Search()">Search</button>
+        </div>
+
+        <h2>Price</h2>
+        <div id="results"></div>
+    </body>
+</html>
