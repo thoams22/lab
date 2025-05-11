@@ -28,11 +28,16 @@ Vous pouvez télécharger le programme d'installation depuis le site officiel de
 
 == Créer une machine virtuelle linux
 
+Aller sur https://www.debian.org/ et cliquer sur télécharger.
+
+Après que le fichier .iso a été télechargé.
+
 Lancer le programme virtual box.
 
 Dans la barre de menu de VirtualBox, cliquer sur "Machine" puis "Nouvelle" pour créer une nouvelle machine virtuelle.
 
-Dans la fenêtre qui s'ouvre, choisir un nom pour la machine virtuelle, sélectionner le type de système d'exploitation (Linux) et la version (Ubuntu 64-bit par exemple). 
+Dans la fenêtre qui s'ouvre, choisir un nom pour la machine virtuelle, dans l'entrée ISO image sélectionner le .iso qui vient d'être télechargé.
+
 Cliquer sur "Suivant".
 
 Laisser les paramètres par défaut pour le materiel et cliquer sur "Suivant".
